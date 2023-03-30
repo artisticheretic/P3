@@ -42,31 +42,63 @@ body{
 
 /* Section 1 - TOP  */
 
+.top-top{
+    padding-bottom: 1.5rem;
+}
 
 .top-top-left{
-    width: 40%;
+    width: 45%;
+    padding-left: 5.5rem;
+    padding-right: 0;
+    margin-top: 8rem;
 }
 
-#top h1{
+#sec-1 h1{
     font-weight: 600;
-    font-size: 65px;
+    font-size: 4.5rem;
+    color: #08111A;
 }
 
-#top p{
+#sec-1 p{
     font-weight: 300;
-    line-height: 30px;
-    /* width: 330px; */
-    /* margin: 25px 0; */
+    line-height: 32px;
+    margin: 2rem 0;
+    padding-right: 7.5rem;
+    color: #08111A;
 }
 
 .top-top-btn{
-    /* padding: 20px 35px; */
+    padding: 1.2rem 3rem;
+    background-color: #F4471D;
+    font-size: 0.8rem;
 }
 
 .top-top-right{
-    padding-right: 100px;
+    width: 55%;
 }
 
 .top-top-right img{
     width: 100%;
+}
+
+.top-mid{
+    padding-bottom: 4rem;
+}
+
+.top-mid a{
+    display: inline-block;
+}
+
+.top-mid-img{
+    width: 100px;
+    filter: grayscale(100%) opacity(0.4);
+}
+
+.top-bottom h3{
+    line-height: 3rem;
+    font-size: 2.1rem;;
+}
+
+.top-bottom p{
+    border: 2px solid black;
 }
